@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    position: fixed;
+    background: hsla(262, 43%, 76%, 0.768);
+    width: 17%;
+    height: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title span{
+    font-size: 25px;
+}
+.bagicon{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.taglist{
+    height: 80%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 42px;
+    cursor: pointer;
+}
+.taglist :is(.tagicon,.logout){
+    height: 20px;
+}
+.tag{
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    transition: all 0.4s linear;
+    padding-left: 15px;
+}
+.logouttag{
+    width: 100%;
+    text-align: center;
+}
+.logout{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+:is(.tag,.logout):hover{
+    background: rgba(145, 104, 212, 0.773);
+}
+.active{
+    background: rgb(145, 104, 212);
+}

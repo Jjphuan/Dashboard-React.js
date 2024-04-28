@@ -1,0 +1,32 @@
+body{
+  background: rgba(107, 41, 214, 0.991);
+}
+
+h2{
+  border: none;
+  position: relative;
+  margin-left: 15px;
+}
+
+.wrapper{
+  width: 100%;
+  height: 96vh;
+}
+
+.innerwrapper{
+  background-color: rgba(181, 167, 204, 0.549);
+  /* background-color: rgba(226, 220, 237, 0.761); */
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  justify-self: center;
+  width: 97%;
+  height: 95%;
+  margin: 18px auto 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.content{
+  margin-left: 19%;
+}
